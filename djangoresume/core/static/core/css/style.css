@@ -36,7 +36,7 @@ p {
 }
 
 #name h1 {
-	font-size: 2.5em;
+	font-size: 2.25em;
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
@@ -298,29 +298,29 @@ section:last-child {
 
 .instaFade {
     -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 1.0s;
     -webkit-animation-timing-function: ease-in;
 	
 	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 1.5s;
+    -moz-animation-duration: 1.0s;
     -moz-animation-timing-function: ease-in;
 	
 	animation-name: reset, fade-in;
-    animation-duration: 1.5s;
+    animation-duration: 1.0s;
     animation-timing-function: ease-in;
 }
 
 .quickFade {
     -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 2.5s;
+    -webkit-animation-duration: 1.0s;
     -webkit-animation-timing-function: ease-in;
 	
 	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 2.5s;
+    -moz-animation-duration: 1.0s;
     -moz-animation-timing-function: ease-in;
 	
 	animation-name: reset, fade-in;
-    animation-duration: 2.5s;
+    animation-duration: 1.0s;
     animation-timing-function: ease-in;
 }
  
@@ -337,9 +337,9 @@ section:last-child {
 }
 
 .delayThree {
-	-webkit-animation-delay: 0, 1.5s;
-	-moz-animation-delay: 0, 1.5s;
-	animation-delay: 0, 1.5s;
+	-webkit-animation-delay: 0, 0.5s;
+	-moz-animation-delay: 0, 0.5s;
+	animation-delay: 0, 0.5s;
 }
 
 .delayFour {
@@ -349,7 +349,7 @@ section:last-child {
 }
 
 .delayFive {
-	-webkit-animation-delay: 0, 2.5s;
-	-moz-animation-delay: 0, 2.5s;
-	animation-delay: 0, 2.5s;
+	-webkit-animation-delay: 0, 0.5s;
+	-moz-animation-delay: 0, 0.5s;
+	animation-delay: 0, 0.5s;
 }
