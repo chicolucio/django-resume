@@ -157,7 +157,11 @@ section:last-child {
 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
-		display: none;
+		float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
 	}
 	
 	.keySkills {
@@ -175,7 +179,11 @@ section:last-child {
 	}
 	
 	#headshot {
-		display: none;
+		float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
 	}
 	
 	#name, #contactDetails {
@@ -224,6 +232,14 @@ section:last-child {
 	#name h1 {
 		line-height: .8em;
 		margin-bottom: 4px;
+	}
+
+	#headshot {
+		float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
 	}
 }
 
